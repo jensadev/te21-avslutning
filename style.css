@@ -1,0 +1,70 @@
+.container {
+    width: min(60rem, 100% - 4rem);
+    margin-inline: auto;
+}
+
+.red {
+    background-color: #a32828;
+}
+
+.main {
+    min-height: 80vh;
+    margin-top: 180px;
+    padding-top: 200px;
+    position: relative;
+}
+
+body {
+    background-color: #682e0e;
+}
+
+#skatt1 {
+    position: absolute;
+    left: -80px;
+    top: -160px;
+}
+
+#skatt2 {
+    position: absolute;
+    left: 30%;
+    top: 60px;
+    width: 250px;
+    height: auto;
+}
+
+#skatt3 {
+    position: absolute;
+    right: 20%;
+    top: 20px;
+    width: 250px;
+    height: auto;
+}
+
+#beast {
+    background-color: white;
+    display: grid;
+    grid-template-areas: 'stack';
+    max-width: 300px;
+}
+
+#beast > * {
+    grid-area: stack;
+}
+
+#beast > p {
+    color: red;
+    font-size: 5rem;
+}
+
+#beast > img {
+}
+
+#apa {
+    background-color: yellow;
+    height: 120px;
+    width: 440px;
+    font-size: 3rem;
+    position: absolute;
+    right: -80px;
+    top: 300px;
+}
