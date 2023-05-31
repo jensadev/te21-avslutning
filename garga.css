@@ -1,0 +1,91 @@
+.container {
+    width: min(60rem, 100% - 4rem);
+    margin-inline: auto;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: url('img/arabsamuel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+nav {
+    background-color: turquoise;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+main {
+    position: relative;
+}
+#hem {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    display: grid;
+    grid-template-areas: 'stack';
+}
+
+#hem > * {
+    grid-area: stack;
+}
+
+#hem > p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.link {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+
+.link > a {
+    color: red !important;
+}
+.link > img {
+    width: 200px;
+    height: auto;
+    display: inline;
+}
+
+.px1 {
+    margin-top: -12px;
+}
+
+.px2 {
+    margin-top: -6px;
+}
+
+.px3 {
+    margin-top: 8px;
+}
+
+.px4 {
+    margin-top: 12px;
+    margin-left: 6px;
+}
+.px5 {
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.px6 {
+    margin-top: 22px;
+    margin-left: 16px;
+}

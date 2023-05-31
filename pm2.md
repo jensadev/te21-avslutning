@@ -1,16 +1,15 @@
 # Inledning
 
-Jag lider och måste göra detta arbete.
-Alla andra äter glass.
+Mycket fin sida. Bra.
 
 # Bakgrund
 
 Det är en viktig tradition att göra sidor.
 
-
 # Positiva erfarenheter
 
-Alla för att jag är så bra.
+Alla erfarenheter är bra för att jag är så bra.
+Frej.
 
 # Negativa erfarenheter
 
@@ -19,4 +18,6 @@ Nej.
 # Förbättring
 
 Komma ihåg att köpa glass utan nötter.
-Köttfri glass.a
+Köttfri glass.
+
+Gör fler sidor. Gör Samuel glad.
